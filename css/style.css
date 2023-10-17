@@ -1,1 +1,190 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+
+
+#wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#menu {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px 5px 0 0;
+}
+
+#menu h1 {
+    font-size: 24px;
+}
+.welcome{
+    position: relative;
+    top: 13px;
+}
+.welcome a {
+    color: rgb(254, 254, 254);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logout a {
+    color: #f00;
+    text-decoration: none;
+}
+
+#chatbox {
+    padding: 10px;
+    min-height: 300px;
+    max-height: 400px;
+    overflow-y: scroll;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 0 0 5px 5px;
+}
+
+/* Center the form on the screen */
+
+
+.form-container {
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Style for labels */
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Style for form inputs */
+.form-group input[type="text"],
+.form-group input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Style for form inputs on focus */
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Style for form buttons */
+.form-group button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+/* Style for form buttons on hover */
+.form-group button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    position: relative;
+    top: 10px;
+}
+
+input[type="submit"] {
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+    top: 10px;
+}
+
+/* Style the chat messages */
+.chatmsg {
+    background-color: #e2e2e2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+/* Style the "Send" button */
+#submitmsg {
+    width: auto;
+}
+
+/* Style the "Exit" button */
+#exit {
+    text-decoration: none;
+    color: #333;
+    background-color: #ffffff;
+    padding: 4px 9px;
+    border: 2px solid #f7f7f7;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    position: relative;
+    left: 159px;
+    top: -5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#exit:hover {
+    background-color: #c00;
+}
+
+#home{
+    text-decoration: none;
+    color: #333;
+    background-color: #ffffff;
+    padding: 4px 9px;
+    border: 2px solid #f7f7f7;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    position: relative;
+    left: -193px;
+    top: -65px;
+    font-weight: bold;
+    font-size: 14px;
+}
